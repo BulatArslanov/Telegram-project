@@ -9,10 +9,10 @@ import requests
 # основные переменные
 URL_METAR = "https://tgftp.nws.noaa.gov/data/observations/metar/stations/UWUU.TXT"
 URL_TAF = "https://tgftp.nws.noaa.gov/data/forecasts/taf/stations/UWUU.TXT"
-TOKEN = '1747286045:AAHRUwvGF2pM4lyZFjxJemL8hNdGGN-im-A'
+TOKEN = input()
 reply_keyboard = [['/start', '/close'], ['/get_metar', '/get_taf']]
 markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=False)
-apikey = "40d1649f-0493-4b70-98ba-98533de7710b"
+apikey = input()
 
 
 # старт бота
